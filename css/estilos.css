@@ -1,6 +1,13 @@
 .carrousel {
-	background-image:url("../images/banner.png");
+	background-image:url("../images/banner_verde.png");
 	height:100vh;
 	background-size:cover;
 	background-position:center; 
+}
+
+.navegador {
+	/*background-color:#6D3AE8;*/
+	background: linear-gradient(#22C3C6,#36B8E9);
+	/*background-color: #239e81;*/
+  	border-color: #1d836b;
 }
