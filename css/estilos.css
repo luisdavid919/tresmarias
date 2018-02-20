@@ -1,0 +1,6 @@
+.carrousel {
+	background-image:url("../images/banner.png");
+	height:100vh;
+	background-size:cover;
+	background-position:center; 
+}
