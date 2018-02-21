@@ -7,7 +7,7 @@
 
 .navegador {
 	/*background-color:#6D3AE8;*/
-	background: linear-gradient(#22C3C6,#36B8E9);
+	background: linear-gradient(#2EC08E,#36B8E9);
 	/*background-color: #239e81;*/
   	border-color: #1d836b;
 }
@@ -17,5 +17,10 @@ a {
 }
 
 p {
-	font-size: 2rem;
+	font-size: 3rem;
+}
+
+button.navbar-toggler{
+    /*background: radial-gradient(#94FF52,#74FF94);*/
+    background-color:orange; 
 }
