@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <title>EPCTM|Inicio</title>
@@ -16,22 +17,91 @@
       <h1 class="display-1">ESCUELA PREPARATORIA TRES MARÍAS</h1>
     </section>
     <!-- Inicio del NavBar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-faded navegador"> <!--fixed-top-->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-       </button>
-   <a class="navbar-brand" href="index.html">
+     
+    <!-- NAVBAR FIXED -->
+     <!-- Static navbar -->
+            <nav class="navbar navbar-expand-md navbar-light bg-faded navegador">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
     <img src="images/logo.svg" width="120" height="80" class="d-inline-block align-top" alt="logoprepatresmarias"></a>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <div class="navbar-nav mr-auto">
-      <a class="nav-item nav-link active" href="#">Inicio</a>
-      <a class="nav-item nav-link" href="#">Escuela</a>
-      <a class="nav-item nav-link" href="#">Estudiantes</a>
-      <a class="nav-item nav-link" href="#">Directorio y Contacto</a>
-    </div>
-  </div>
-</nav> <!-- End del NavBar -->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Escuela
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Misión</a></li>
+                                <li><a class="dropdown-item" href="#">Visión</a></li>
+                                <li><a class="dropdown-item" href="#">Instalaciones</a></li>
+                                <li><a class="dropdown-item" href="#">Carreras & Currículas</a></li></ul>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Estudiantes</a>
+
+
+
+                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item dropdown-toggle" href="#">Consultas</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Kárdex</a></li>
+                                        <li><a class="dropdown-item" href="#">Horarios</a></li>
+                                        <li><a class="dropdown-item" href="#">Enlaces de Interés</a></li></ul>
+
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item dropdown-toggle" href="#">Servicios</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Orientación Educativa</a></li>
+                                        <li><a class="dropdown-item" href="#">Tutorías</a></li></ul>
+                                       <!--  <li><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Subsubmenu action aa</a></li>
+                                                <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Subsubmenu action bb</a></li>
+                                                <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                        <li><a class="dropdown-item dropdown-toggle" href="#">Submenu 2</a>
+        <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Submenu action 2</a></li>
+        <li><a class="dropdown-item" href="#">Another submenu action 2</a></li>
+
+
+        <li><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+        <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Subsubmenu action 1 3</a></li>
+        <li><a class="dropdown-item" href="#">Another subsubmenu action 2 3</a></li>
+       </ul>
+                  </li>
+      <li><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu 3</a>
+        <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Subsubmenu action 3 </a></li>
+        <li><a class="dropdown-item" href="#">Another subsubmenu action 3</a></li>
+            </ul>
+            </li>
+      </ul>
+      </li>-->
+     </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div> <!-- /container -->
+
+    <!-- FIN NAVBAR FIXED -->
+
     <section class="container-fluid">
       <p class="mt-5 pt-5 text-uppercase text-center font-weight-bold font-italic bg-warning">bienvenido</p>
 
@@ -80,6 +150,7 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/navbar.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
