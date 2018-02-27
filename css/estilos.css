@@ -24,3 +24,7 @@ button.navbar-toggler{
     /*background: radial-gradient(#94FF52,#74FF94);*/
     background-color:orange; 
 }
+
+.color{
+	background-color: #a8cad6 !important;
+}
