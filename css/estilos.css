@@ -28,3 +28,8 @@ button.navbar-toggler{
 .color{
 	background-color: #a8cad6 !important;
 }
+
+.container-fluid{
+	padding-right:0px !important; 
+	padding-left: 0px !important;
+}
