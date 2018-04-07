@@ -1,6 +1,6 @@
-.carrousel {
+.fondo {
 	background-image:url("../images/banner_verde.png");
-	height:100vh;
+	height:80vh;
 	background-size:cover;
 	background-position:center; 
 }
